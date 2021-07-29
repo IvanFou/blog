@@ -165,4 +165,67 @@ nav{
         font-size: 22px;
     }
 
+    header .social-media .icons{
+        width: 300px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10%;
+     }
+    
+}
+
+@media (min-width: 600px) and (max-width:915px){
+    .home section{
+        display: grid;
+        grid-column: 2;
+        justify-items: center;
+        height: 350px;
+        margin-top: 130px;
+        margin-left: 2%;
+    }
+    .main-container{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .nav-logo-container{
+        display: none;
+    }
+
+    nav{
+        margin-left:  20px;
+    }
+
+    .profile-link a{
+        font-size: 22px;
+    }
+}    
+
+@media (min-width: 915px) and (max-width:1220px){
+
+    .home section{
+        display: grid;
+        grid-column: 2;
+        justify-items: center;
+        height: 350px;
+        margin-top: 130px;
+        margin-left: 2%;
+    }
+    .main-container{
+        font-size: 18px;
+    }
+
+    .nav-logo-container{
+        display: none;
+    }
+
+    nav{
+        margin-left:  20px;
+    }
+
+    .profile-link a{
+        font-size: 22px;
+    }
 }
