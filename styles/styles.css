@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background: linear-gradient(#000814, #010b16);
+}
+
+header .social-media{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .social-media .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+ }
+
+header .icons span{
+    color: white;
+} 
+
+nav{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2,90%);
+
+}
+
+.profile-link{
+    margin-top: 1%;
+}
+
+.profile-link a{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-logo-container img{
+    width: 270px;
+    height: 119px;
+    margin-left: 30px;
+    margin-top: -2%;
+}
+
+.home{
+    background:url('https://images.pexels.com/photos/3761158/pexels-photo-3761158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+}
+
+.home section{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.main-container{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.main-container button{
+    background-color: #ffffff;
+    color: #000814;
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    margin-top: -15%;
+}
+
+.home-main{
+    background: linear-gradient(#000814, #010b16);
+    margin-top: -20%;
+    height: 80%;
+    display: grid;
+}
+
+.blogs-main-new{
+    padding: 0 50px 40px;
+    margin-top: 20%;
+    color: white;
+}
+
+.blogs-news-info-container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 2fr;
+}
+
+@media (max-width: 600px){
+    .home section{
+        display: grid;
+        grid-column: 2;
+        justify-items: center;
+        height: 350px;
+        margin-top: 180px;
+        margin-left: -10%;
+    }
+    .main-container{
+        font-size: 18px;
+    }
+    
+    .main-container button{ 
+        background-color: #ffffff;
+        color: #000814;
+        border-radius: 5px;
+        border: 0;
+        height: 30px;
+        width: 100px;
+        margin-top: -20%;
+    }
+
+    .nav-logo-container{
+        display: none;
+    }
+
+    nav{
+        padding: 5%;
+    }
+
+    .profile-link a{
+        font-size: 22px;
+    }
+
+}
