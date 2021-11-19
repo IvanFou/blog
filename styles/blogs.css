@@ -184,11 +184,10 @@ nav{
 
 footer {
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: #000814;
     border-top: 35px solid #02172e;
     text-align: center;
-    margin-top: 10%;
 }
 
 footer p {
@@ -261,28 +260,30 @@ footer p {
     display: grid;
     grid-template-columns: repeat(2,50%);
     padding: 5%;
-    height: 200px;
-    margin-top: 8%;
-    background-color: #000814;
+    height: 200%;
+    margin-top: 0%;
+    
+    background: linear-gradient( #010b16, #000814);
 }
 
 .container__main--perfil h1{
     color: aliceblue;
-    font-size: 18px;
+    font-size: 33px;
+    margin-bottom: 5%;
 }
 
 .container__main--perfil p{
     color: white;
     font-family: 'Noto Sans', sans-serif;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .container__main--perfil img{
     width: 60%;
-    height: 80%;
+    height: 90%;
     margin-top: -5%;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-left: 20%;
 }
 
@@ -293,33 +294,70 @@ footer p {
     margin-top: -5%;
 }
 
-.projects__main{
-    margin-bottom: 10%;
+.portafolio{
+    background-color: #000814;
+    padding: 2%;
 }
 
-.projects__main--section h3{
-    margin-left: 5%;
-    margin-top: 3%;
-    font-size: 22px;
+.portafolio h2{
+    color: white;
 }
 
-.post__project{
-    border-radius: 5px;
-    margin-left: 20%;
-    margin-top: 30%;
+.portafolio__cards{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 2%;
+    padding: 2%;
+    padding-bottom: 5%;
+}
+.perfil{
+    padding: 8%;
+    text-align: center;
+}
+
+.perfil p{
+    font-size: 18px;
+}
+
+.formacion{
     padding: 5%;
-    width: 80%;
-    height: 85%;
-    font-family: OpenSans;
-    color: #000814;
 }
 
-.post__project img{
-    width: 113.5%;
-    height: 200px;
-    margin-left: -6.5%;
-    margin-top: -6.5%;
-    border-radius: 4px;
+.formacion__article{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-left: 10%;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.video{
+    padding: 2%;
+    color: white;
+    height: 150%;
+    margin-top: 0%;
+    background-color: #000814;   
+}
+
+.video__article{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    text-align:justify;
+}
+
+.video__article button{
+    margin-top: 5%;
+}
+
+.video__article p{
+    margin-top: 15%;
+}
+
+.video iframe{
+    margin-left: 40%; 
+    width: 560px;
+    height: 320px;
+    border-radius: 20px;
 }
 
 .titulo-web{
@@ -328,14 +366,7 @@ footer p {
     border-top: #000814 solid 1px;
 }
 
-.courses_main{
-    margin-top: -3%;
-    margin-left: 2%;
-}
 
-.courses{
-    margin-top: 4%;
-}
 
 @media (max-width: 1119px){
 
